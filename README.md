@@ -1,3 +1,5 @@
+![image](https://github.com/patrickramp/otp-crypt/assets/142554235/22a53d98-23b9-4013-be0e-26ced6cc1881)
+
 # otp-crypt
 Command line tool for encrypting .txt files using One-Time Pad (OTP) cipher and printable characters. 
 
