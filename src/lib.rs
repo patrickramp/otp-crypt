@@ -27,7 +27,7 @@ pub fn decrypt(ciphertext: &str, key: &str, printable_chars: &[char]) -> String 
             // Check if both indices are valid
             match (ciphertext_index, key_index) {
                 (Some(c_index), Some(k_index)) => {
-                    // Perform the decryption operation: (ciphertext_index + printable_chars.len() - key_index) % printable_chars.len()
+                    // Perform the decryption operation
                     let decrypted_index =
                         (c_index + printable_chars.len() - k_index) % printable_chars.len();
                     // Retrieve the decrypted character from the printable_chars vector
