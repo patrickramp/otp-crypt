@@ -10,4 +10,4 @@ name = "lib"
 
 [dependencies]
 rand = "0.8.5"
-crypto-hash = "0.3.1"
+crypto-hash = "0.3.4"
